@@ -16,4 +16,9 @@ img {
 
 .stars {
   margin-top: 10px;
+  color: burlywood;
+}
+
+.modal-title {
+  color: burlywood;
 }
