@@ -192,8 +192,8 @@
             height="100px"
             style="object-fit: cover"
           />
-          <h5 class="card-title">{{ review.fname }} {{ review.lname }}</h5>
-          <small class="text-muted">{{ review.email }}</small>
+          <h5 class="card-title reviewer-name">{{ review.fname }} {{ review.lname }}</h5>
+          <small class="text-muted reviewer-email">{{ review.email }}</small>
           <div class="stars">
             <div *ngIf="review.starRating === 1">
               &#9733; &#9734; &#9734; &#9734; &#9734;
